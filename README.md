@@ -1,5 +1,7 @@
 # JavaFX-GUI
 
+At the beginning, it says inside the table "There is no content in the table."
+
 ![](images/i1.PNG)
 
 The options available for the user to select:
