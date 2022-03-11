@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="300.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.ViewController">
+   <children>
+      <Button fx:id="btAll" layoutX="270.0" layoutY="58.0" mnemonicParsing="false" onAction="#onBtAllAction" text="Show All" />
+      <ComboBox fx:id="comboBoxPerson" layoutX="50.0" layoutY="58.0" onAction="#onComboBoxPersonAction" prefWidth="150.0" promptText="Select a person" AnchorPane.leftAnchor="58.0" AnchorPane.topAnchor="58.0" />
+      <TableView fx:id="table" layoutX="219.0" layoutY="148.0" prefHeight="137.0" prefWidth="165.0">
+        <columns>
+          <TableColumn fx:id="id" prefWidth="41.3333740234375" text="Id" />
+          <TableColumn fx:id="name" minWidth="0.0" prefWidth="57.3333740234375" text="Name" />
+            <TableColumn fx:id="email" prefWidth="242.00002034505206" text="Email" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
