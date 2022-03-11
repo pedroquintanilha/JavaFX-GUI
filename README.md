@@ -10,7 +10,7 @@ Once selected, an alert is displayed for confirmation purposes only, showing whi
 
 ![](images/i3.PNG)
 
-When the button "show all" is clicked, a table with id, name and email of all people is shown.
+When the button "Show All" is clicked, a table with id, name and email of all people is shown.
 
 ![](images/i4.PNG)
 
